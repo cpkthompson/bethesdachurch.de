@@ -43,7 +43,7 @@ export default function Layout() {
                 to={link.to}
                 end={link.to === "/"}
                 className={({ isActive }) =>
-                  `text-sm transition ${isActive ? "text-gold" : "text-cream/70 hover:text-cream"}`
+                  `text-sm font-medium transition ${isActive ? "text-gold" : "text-cream/70 hover:text-cream"}`
                 }
               >
                 {link.label}
